@@ -7,8 +7,8 @@ exports[`export exporting svg containing transformed images: svg export output 1
   <defs>
     <style class=\\"style-fonts\\">
       @font-face {
-        font-family: \\"Virgil\\";
-        src: url(\\"https://excalidraw.com/Virgil.woff2\\");
+        font-family: \\"HandWritingFont\\";
+        src: url(\\"https://excalidraw.com/HandWritingFont.woff2\\");
       }
       @font-face {
         font-family: \\"Cascadia\\";

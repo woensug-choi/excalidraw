@@ -10,7 +10,7 @@ const MenuHint = ({ children }: { children?: React.ReactNode }) => {
   const { welcomeScreenMenuHintTunnel } = useTunnels();
   return (
     <welcomeScreenMenuHintTunnel.In>
-      <div className="virgil welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--menu">
+      <div className="HandWritingFont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--menu">
         {WelcomeScreenMenuArrow}
         <div className="welcome-screen-decor-hint__label">
           {children || t("welcomeScreen.defaults.menuHint")}
@@ -25,7 +25,7 @@ const ToolbarHint = ({ children }: { children?: React.ReactNode }) => {
   const { welcomeScreenToolbarHintTunnel } = useTunnels();
   return (
     <welcomeScreenToolbarHintTunnel.In>
-      <div className="virgil welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--toolbar">
+      <div className="HandWritingFont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--toolbar">
         <div className="welcome-screen-decor-hint__label">
           {children || t("welcomeScreen.defaults.toolbarHint")}
         </div>
@@ -40,7 +40,7 @@ const HelpHint = ({ children }: { children?: React.ReactNode }) => {
   const { welcomeScreenHelpHintTunnel } = useTunnels();
   return (
     <welcomeScreenHelpHintTunnel.In>
-      <div className="virgil welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--help">
+      <div className="HandWritingFont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--help">
         <div>{children || t("welcomeScreen.defaults.helpHint")}</div>
         {WelcomeScreenHelpArrow}
       </div>

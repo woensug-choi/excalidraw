@@ -1,10 +1,3 @@
-/* http://www.eaglefonts.com/fg-virgil-ttf-131249.htm */
-@font-face {
-  font-family: "Virgil";
-  src: url("Virgil.woff2");
-  font-display: swap;
-}
-
 /* https://github.com/microsoft/cascadia-code */
 @font-face {
   font-family: "Cascadia";
@@ -35,4 +28,65 @@
   src: url("Assistant-Bold.woff2");
   font-display: swap;
   font-weight: 700;
+}
+
+@font-face {
+  font-family: "HandWritingFont";
+  src: url("NanumHardHand.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NormalFont";
+  /* src: url("NanumHardHand.ttf"); */
+  src: url("NanumSquareNeoTTF-aLt.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NanumElemental";
+  src: url("NanumElemental.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("NanumSquareRoundL.ttf");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("NanumSquareRoundR.ttf");
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("NanumSquareRoundB.ttf");
+  font-display: swap;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("NanumSquareNeoTTF-bRg.woff2");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("NanumSquareNeoTTF-cBd.woff2");
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("NanumSquareNeoTTF-dEb.woff2");
+  font-display: swap;
+  font-weight: 800;
 }

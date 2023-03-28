@@ -49,12 +49,12 @@ const elements = [
     opacity: 100,
     seed: 1683771448,
     text: "test",
-    font: "20px Virgil",
+    font: "20px HandWritingFont",
     baseline: 22,
   },
 ];
 
-registerFont("./public/Virgil.woff2", { family: "Virgil" });
+registerFont("./public/HandWritingFont.woff2", { family: "HandWritingFont" });
 registerFont("./public/Cascadia.woff2", { family: "Cascadia" });
 
 const canvas = exportToCanvas(

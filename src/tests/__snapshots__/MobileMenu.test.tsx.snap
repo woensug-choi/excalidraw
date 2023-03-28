@@ -5,7 +5,7 @@ exports[`Test MobileMenu should initialize with welcome screen and hide once use
   class="welcome-screen-center"
 >
   <div
-    class="welcome-screen-center__logo virgil welcome-screen-decor"
+    class="welcome-screen-center__logo HandWritingFont welcome-screen-decor"
   >
     <svg
       aria-hidden="true"
@@ -31,7 +31,7 @@ exports[`Test MobileMenu should initialize with welcome screen and hide once use
      Excalidraw
   </div>
   <div
-    class="welcome-screen-center__heading welcome-screen-decor virgil"
+    class="welcome-screen-center__heading welcome-screen-decor HandWritingFont"
   >
     All your data is saved locally in your browser.
   </div>

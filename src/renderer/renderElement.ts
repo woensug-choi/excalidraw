@@ -290,7 +290,7 @@ const drawElementOnCanvas = (
 
         // FIXME temporary hack
         context.textBaseline =
-          element.fontFamily === FONT_FAMILY.Virgil ||
+          element.fontFamily === FONT_FAMILY.HandWritingFont ||
           element.fontFamily === FONT_FAMILY.Cascadia
             ? "ideographic"
             : "bottom";

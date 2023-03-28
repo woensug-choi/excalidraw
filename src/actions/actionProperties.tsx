@@ -362,17 +362,17 @@ export const actionChangeStrokeWidth = register({
         group="stroke-width"
         options={[
           {
-            value: 1,
+            value: 0.5,
             text: t("labels.thin"),
             icon: StrokeWidthBaseIcon,
           },
           {
-            value: 2,
+            value: 1,
             text: t("labels.bold"),
             icon: StrokeWidthBoldIcon,
           },
           {
-            value: 4,
+            value: 2,
             text: t("labels.extraBold"),
             icon: StrokeWidthExtraBoldIcon,
           },
@@ -663,12 +663,12 @@ export const actionChangeFontFamily = register({
       icon: JSX.Element;
     }[] = [
       {
-        value: FONT_FAMILY.Virgil,
+        value: FONT_FAMILY.HandWritingFont,
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
       },
       {
-        value: FONT_FAMILY.Helvetica,
+        value: FONT_FAMILY.NormalFont,
         text: t("labels.normal"),
         icon: FontFamilyNormalIcon,
       },
